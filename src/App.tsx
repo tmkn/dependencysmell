@@ -1,8 +1,9 @@
 import { useState } from "react";
 
 import {Visitor} from "@tmkn/packageanalyzer/web";
+//import {Visitor as Visitor2 } from "@tmkn/packageanalyzer";
 
-console.log(Visitor);
+console.log(13, Visitor);
 
 function App() {
     const [count, setCount] = useState(0);
