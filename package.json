@@ -8,6 +8,7 @@
     "prettier": "prettier --write \"{src,tests,utility}/**/{*.ts,*.tsx,*.js}\""
   },
   "dependencies": {
+    "@tmkn/packageanalyzer": "tmkn/packageanalyzer#a6880ffc11fdad1f2b2ed364c544f113db104dff",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },

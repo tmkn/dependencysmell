@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+import {Visitor} from "@tmkn/packageanalyzer/web";
+
+console.log(Visitor);
+
 function App() {
     const [count, setCount] = useState(0);
 
