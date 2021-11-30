@@ -281,9 +281,9 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@tmkn/packageanalyzer@tmkn/packageanalyzer#f0284ef6707ddd6662cc0d0a9890411d1ee324d8":
+"@tmkn/packageanalyzer@tmkn/packageanalyzer#4860bcdd581a78fa3db10da929ece706038611cf":
   version "0.9.10"
-  resolved "https://codeload.github.com/tmkn/packageanalyzer/tar.gz/f0284ef6707ddd6662cc0d0a9890411d1ee324d8"
+  resolved "https://codeload.github.com/tmkn/packageanalyzer/tar.gz/4860bcdd581a78fa3db10da929ece706038611cf"
   dependencies:
     chalk "^4.1.0"
     clipanion "^3.0.0-rc.12"
