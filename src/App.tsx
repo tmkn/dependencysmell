@@ -9,6 +9,8 @@ import {
     Legend,
     ResponsiveContainer
 } from "recharts";
+import { Container } from "./components/container/Container";
+import { MainSearch } from "./components/search/MainSearch";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -25,24 +27,8 @@ function App() {
             <main>
                 <div className="flex p-4">
                     <div className="w-2/6">
-                        <div className="text-3xl">Highlight outdated NPM Packages</div>
-                        <div className="flex">
-                            <input className="border" placeholder="NPM package name" />
-                            <button>
-                                {/*<svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-5 w-5"
-                                    viewBox="0 0 20 20"
-                                    fill="currentColor"
-                                >
-                                    <path
-                                        fill-rule="evenodd"
-                                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                                        clip-rule="evenodd"
-                                    />
-                                </svg>*/}
-                            </button>
-                        </div>
+                        <div className="text-3xl mb-4">Highlight outdated NPM Packages</div>
+                        <MainSearch />
                     </div>
                     <div className="flex-grow">lorem ipsum</div>
                 </div>
@@ -69,6 +55,7 @@ function App() {
                         </div>
                     </div>
                 </div>
+                <Container>hello world</Container>
             </main>
         </>
     );
