@@ -10,6 +10,7 @@ import {
     ResponsiveContainer
 } from "recharts";
 import { Container } from "./components/container/Container";
+import { Header } from "./components/header/header";
 import { MainSearch } from "./components/search/MainSearch";
 
 function App() {
@@ -17,22 +18,18 @@ function App() {
 
     return (
         <>
-            <header className="flex border-b">
-                <div className="flex p-4 items-center w-full">
-                    <h1 className="text-lg flex-none font-bold font-source-code-pro">NPMsmell</h1>
-                    <div className="flex-grow ml-8"></div>
-                    <div className="flex-none">Highlight outdated NPM packages</div>
-                </div>
-            </header>
-            <main>
-                <div className="flex p-4">
-                    <div className="w-2/6">
-                        <div className="text-3xl mb-4">Highlight outdated NPM Packages</div>
-                        <MainSearch />
+            <Header />
+            <main className="bg-gray-100">
+                <Container>
+                    <div className="flex my-4">
+                        <div className="w-2/6">
+                            <div className="text-3xl mb-4">Highlight outdated NPM Packages</div>
+                            <MainSearch />
+                        </div>
+                        <div className="flex-grow">lorem ipsum</div>
                     </div>
-                    <div className="flex-grow">lorem ipsum</div>
-                </div>
-                <div className="p-4">
+                </Container>
+                {/*<div className="p-4">
                     <h1 className="text-2xl font-source-code-pro">Smell Tracker</h1>
                     <h2 className="text-xs">
                         A curated list of downloads for smelly packages at a glance
@@ -54,7 +51,7 @@ function App() {
                             <MockChart />
                         </div>
                     </div>
-                </div>
+    </div>*/}
                 <Container>hello world</Container>
             </main>
         </>

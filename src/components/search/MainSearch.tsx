@@ -4,10 +4,10 @@ export const MainSearch: React.FC = () => {
     return (
         <div className="flex">
             <div className="flex flex-grow border rounded-l-lg">
-                <input className="flex-grow p-2" placeholder="NPM package name" />
+                <input className="flex-grow px-4 py-2" placeholder="NPM package name" />
             </div>
             <div className="flex rounded-r-lg bg-blue-500 text-white">
-                <button className="pr-4 pl-8">
+                <button className="px-4">
                     {
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
